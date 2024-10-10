@@ -1,0 +1,7 @@
+.aHome {
+    display: flex;
+}
+
+.ahContainer {
+    flex: 6;
+}

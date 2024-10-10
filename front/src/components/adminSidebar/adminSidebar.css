@@ -1,0 +1,83 @@
+.adminSidebar {
+    flex: 1;
+    border-right: 0.5px solid rgb(231, 228, 228);
+    min-height: 100vh;
+}
+
+.top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoAdmin {
+    font-size: 24px;
+    font-weight: bold;
+    color: #20dd9b;
+    cursor: pointer;
+}
+
+.center {
+    padding-left: 30px;
+}
+
+.bottom {
+    padding-left: 30px;
+}
+
+
+.center>ul {
+    list-style: none;
+}
+
+.titleAdmin {
+    font-size: 16px;
+    font-weight: bold;
+    color: #999;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.center>ul>li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.center>ul>li:hover {
+    background-color: #ffc300;
+}
+
+
+.center>ul>li>span {
+    font-size: 22px;
+    font-weight: 600px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.bottom>ul>li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.bottom>ul>li:hover {
+    background-color: #ffc300;
+}
+
+
+.bottom>ul>li>span {
+    font-size: 22px;
+    font-weight: 600px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.iconAdmin {
+    font-size: 24px;
+    color: #583bff;
+}

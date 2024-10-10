@@ -1,0 +1,46 @@
+.register {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #edf1f0;
+}
+
+.register-form>button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #583bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-formrbutton:hover {
+    background-color: #422cc0;
+}
+
+.linkLogin {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.linkLogin>span {
+    cursor: pointer;
+    color: #3D67F5;
+}
+
+.linkLogin>span:hover {
+    text-decoration: underline;
+}

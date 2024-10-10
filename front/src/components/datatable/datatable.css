@@ -1,0 +1,66 @@
+.datatable {
+	height: 700px;
+	padding: 20px;
+	max-width: 100%;
+}
+
+// para as reservas
+
+.cellStatus {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 4px 2px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: normal;
+}
+
+// em efeito agora
+.ativa {
+    background-color: rgba(0, 128, 0, 0.05);
+    color: green;
+}
+
+// pagamento pendente
+.pendente {
+    background-color: rgba(255, 217, 0, 0.05);
+    color: goldenrod;
+}
+
+// checkOut realizado
+.efetuada {
+    background-color: rgba(255, 0, 0, 0.05);
+    color: crimson;
+}
+
+.cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.viewButton {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: normal;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px solid darkblue;
+    cursor: pointer;
+}
+
+.deleteButton {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: normal;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px solid crimson;
+    cursor: pointer;
+}

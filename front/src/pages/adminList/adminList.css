@@ -1,0 +1,9 @@
+.aList {
+	display: flex;
+}
+
+.aContainer {
+	flex: 6;
+    overflow: hidden;
+    max-width: 100%
+}

@@ -1,0 +1,34 @@
+.adminNavbar {
+	height: 50px;
+	border-bottom: 0.5px solid rgb(231, 228, 228);
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: lightgray;
+}
+
+.anWrapper {
+	width: 100%;
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.aSearch {
+	display: flex;
+	align-items: center;
+	padding: 3px;
+	border: 0.5px solid lightgray;
+	gap: 10px;
+}
+
+.iaSearch {
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+.iaSearch::placeholder {
+	font-size: 12px;
+}

@@ -1,0 +1,18 @@
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.iForm {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.lForm {
+    margin-bottom: 5px;
+    font-size: 15px;
+}

@@ -1,0 +1,63 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo {
+  margin-top: 50px;
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #edf1f0;
+}
+
+.lInput {
+  height: 30px;
+  padding: 10px;
+}
+
+.lButton {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #583bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.lButton button:hover {
+  background-color: #422cc0;
+}
+
+.lButton:disabled {
+  background-color: #583bff;
+  cursor: not-allowed;
+}
+
+.linkRegister {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.linkRegister>span {
+  cursor: pointer;
+  color: #3D67F5;
+}
+
+.linkRegister>span:hover {
+  text-decoration: underline;
+}
+
+.erro {
+  font-size: 15px;
+}
