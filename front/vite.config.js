@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://api-massante.onrender.com',
+        target: 'https://mdeploy-bvh9.onrender.com',
         changeOrigin: true,
         secure: true,
       }
