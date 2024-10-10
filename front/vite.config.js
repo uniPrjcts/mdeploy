@@ -8,7 +8,7 @@ export default defineConfig({
       '/api': {
         target: 'https://mdeploy-bvh9.onrender.com',
         changeOrigin: true,
-        secure: true,
+        secure: false,
       }
     }
   }
